@@ -1,0 +1,25 @@
+@for $i from 1 through 12{
+    .grid-#{$i}{
+        width: calc(100% / 12 * $i);
+    }
+}
+@for $i from 1 through 12{
+    .grid-sm-#{$i}{
+        width: calc(100% / 12 * $i);
+    }
+}
+@for $i from 1 through 12{
+    .grid-lg-#{$i}{
+        width: calc(100% / 12 * $i);
+    }
+}
+@for $i from 1 through 12{
+    .grid-xl-#{$i}{
+        width: calc(100% / 12 * $i);
+    }
+}
+@for $i from 1 through 12{
+    .grid-xxl-#{$i}{
+        width: calc(100% / 12 * $i);
+    }
+}
